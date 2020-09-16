@@ -1,0 +1,8 @@
+suppressMessages(library(shiny))
+suppressMessages(library(shiny.router))
+
+addResourcePath("assets", "./src/assets")
+
+source("./src/components/SideBarPanel/index.R")
+ 
+source("./src/routes/index.R")

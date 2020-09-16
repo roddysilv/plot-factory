@@ -1,9 +1,9 @@
 {
     "id": "4C2B2CD4",
-    "path": "E:/Engenharia/Projetos/Git/plot-factory/app.R",
+    "path": "E:/Engenharia/MiniCursos UFJF/Introdução ao Desenvolvimento Web Usando o R - shiny/plot-factory/app.R",
     "project_path": "app.R",
     "type": "r_source",
-    "hash": "489052393",
+    "hash": "1322521213",
     "contents": "",
     "dirty": false,
     "created": 1600216627191.0,
@@ -11,15 +11,15 @@
     "relative_order": 1,
     "properties": {
         "tempName": "Untitled1",
-        "cursorPosition": "23,24",
-        "scrollLine": "5"
+        "cursorPosition": "4,19",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1600220770,
+    "lastKnownWriteTime": 1600285781,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1600220770624,
+    "last_content_update": 1600285781593,
     "read_only": false,
     "read_only_alternatives": []
 }

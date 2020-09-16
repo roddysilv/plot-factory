@@ -1,0 +1,24 @@
+{
+    "id": "89DF304B",
+    "path": "E:/Engenharia/MiniCursos UFJF/Introdução ao Desenvolvimento Web Usando o R - shiny/plot-factory/src/components/SideBarPanelItem/index.R",
+    "project_path": "src/components/SideBarPanelItem/index.R",
+    "type": "r_source",
+    "hash": "3419112378",
+    "contents": "",
+    "dirty": false,
+    "created": 1600285638739.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "cursorPosition": "22,59",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1600285895,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1600285895331,
+    "read_only": false,
+    "read_only_alternatives": []
+}

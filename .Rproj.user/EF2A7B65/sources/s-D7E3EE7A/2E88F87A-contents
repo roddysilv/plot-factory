@@ -1,0 +1,20 @@
+sidebarPanel <- function(id){
+  ns <- NS(id)
+  
+  tags$div(
+    class = "sideBarPanel",
+    img(src = "./assets/logos/logoWithTagline.svg", class = "logo"),
+    tags$div(
+      class = "navigation"
+    )
+  )
+}
+
+sidebarPanelServer <- function(id){
+  muduleServer(
+    id,
+    function(input, output, session){
+      
+    }
+  )
+}

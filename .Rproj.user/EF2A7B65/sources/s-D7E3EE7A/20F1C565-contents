@@ -1,0 +1,4 @@
+suppressMessages(library(shiny))
+suppressMessages(library(shiny.router))
+
+source("./src/routs/index.R")
