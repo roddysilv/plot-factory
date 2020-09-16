@@ -1,0 +1,349 @@
+h1,
+h2,
+h3,
+h4,
+p {
+  font-family: "PT Sans Narrow", sans-serif;
+  color: #333333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+html body {
+  min-height: 10vh;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  text-rendering: optmizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  font-family: "PT Sans Narrow", sans-serif;
+  color: #111111;
+  background: #fcfcfc;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer !important;
+  border: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.home {
+  display: flex;
+}
+
+.home .sideBarPanel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  min-height: 100vh;
+  width: 25%;
+  min-width: 250px;
+  max-width: 400px;
+  padding: 0 10px;
+  background-color: #fcfcfc;
+}
+
+.home .sideBarPanel .logo {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.home .sideBarPanel .navigation {
+  display: flex;
+  flex-direction: column;
+}
+
+.home .sideBarPanel .navigation .sideBarPanelItem {
+  display: flex;
+  align-items: center;
+}
+
+.home .sideBarPanel .navigation .sideBarPanelItem a {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 25pt;
+  color: #333333;
+  margin-left: 7px;
+}
+
+.home .sideBarPanel .navigation .sideBarPanelItem a.active {
+  border-bottom: 4px solid #0c9fbf;
+  border-radius: 2px;
+}
+
+.home .sideBarPanel .navigation .sideBarPanelItem + .item {
+  margin-top: 28px;
+}
+
+.home .sideBarPanel .footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.home .sideBarPanel p {
+  margin-left: 7px;
+  font-size: 15pt;
+}
+
+.dataImport {
+  display: flex;
+}
+
+.dataImport .sideBarPanel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  min-height: 100vh;
+  width: 25%;
+  min-width: 250px;
+  max-width: 400px;
+  padding: 0 10px;
+  background-color: #fcfcfc;
+}
+
+.dataImport .sideBarPanel .logo {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.dataImport .sideBarPanel .navigation {
+  display: flex;
+  flex-direction: column;
+}
+
+.dataImport .sideBarPanel .navigation .sideBarPanelItem {
+  display: flex;
+  align-items: center;
+}
+
+.dataImport .sideBarPanel .navigation .sideBarPanelItem a {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 25pt;
+  color: #333333;
+  margin-left: 7px;
+}
+
+.dataImport .sideBarPanel .navigation .sideBarPanelItem a.active {
+  border-bottom: 4px solid #0c9fbf;
+  border-radius: 2px;
+}
+
+.dataImport .sideBarPanel .navigation .sideBarPanelItem + .item {
+  margin-top: 28px;
+}
+
+.dataImport .sideBarPanel .footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.dataImport .sideBarPanel p {
+  margin-left: 7px;
+  font-size: 15pt;
+}
+
+.type {
+  display: flex;
+}
+
+.type .sideBarPanel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  min-height: 100vh;
+  width: 25%;
+  min-width: 250px;
+  max-width: 400px;
+  padding: 0 10px;
+  background-color: #fcfcfc;
+}
+
+.type .sideBarPanel .logo {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.type .sideBarPanel .navigation {
+  display: flex;
+  flex-direction: column;
+}
+
+.type .sideBarPanel .navigation .sideBarPanelItem {
+  display: flex;
+  align-items: center;
+}
+
+.type .sideBarPanel .navigation .sideBarPanelItem a {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 25pt;
+  color: #333333;
+  margin-left: 7px;
+}
+
+.type .sideBarPanel .navigation .sideBarPanelItem a.active {
+  border-bottom: 4px solid #0c9fbf;
+  border-radius: 2px;
+}
+
+.type .sideBarPanel .navigation .sideBarPanelItem + .item {
+  margin-top: 28px;
+}
+
+.type .sideBarPanel .footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.type .sideBarPanel p {
+  margin-left: 7px;
+  font-size: 15pt;
+}
+
+.edition {
+  display: flex;
+}
+
+.edition .sideBarPanel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  min-height: 100vh;
+  width: 25%;
+  min-width: 250px;
+  max-width: 400px;
+  padding: 0 10px;
+  background-color: #fcfcfc;
+}
+
+.edition .sideBarPanel .logo {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.edition .sideBarPanel .navigation {
+  display: flex;
+  flex-direction: column;
+}
+
+.edition .sideBarPanel .navigation .sideBarPanelItem {
+  display: flex;
+  align-items: center;
+}
+
+.edition .sideBarPanel .navigation .sideBarPanelItem a {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 25pt;
+  color: #333333;
+  margin-left: 7px;
+}
+
+.edition .sideBarPanel .navigation .sideBarPanelItem a.active {
+  border-bottom: 4px solid #0c9fbf;
+  border-radius: 2px;
+}
+
+.edition .sideBarPanel .navigation .sideBarPanelItem + .item {
+  margin-top: 28px;
+}
+
+.edition .sideBarPanel .footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.edition .sideBarPanel p {
+  margin-left: 7px;
+  font-size: 15pt;
+}
+
+.result {
+  display: flex;
+}
+
+.result .sideBarPanel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  min-height: 100vh;
+  width: 25%;
+  min-width: 250px;
+  max-width: 400px;
+  padding: 0 10px;
+  background-color: #fcfcfc;
+}
+
+.result .sideBarPanel .logo {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.result .sideBarPanel .navigation {
+  display: flex;
+  flex-direction: column;
+}
+
+.result .sideBarPanel .navigation .sideBarPanelItem {
+  display: flex;
+  align-items: center;
+}
+
+.result .sideBarPanel .navigation .sideBarPanelItem a {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 25pt;
+  color: #333333;
+  margin-left: 7px;
+}
+
+.result .sideBarPanel .navigation .sideBarPanelItem a.active {
+  border-bottom: 4px solid #0c9fbf;
+  border-radius: 2px;
+}
+
+.result .sideBarPanel .navigation .sideBarPanelItem + .item {
+  margin-top: 28px;
+}
+
+.result .sideBarPanel .footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.result .sideBarPanel p {
+  margin-left: 7px;
+  font-size: 15pt;
+}
+
