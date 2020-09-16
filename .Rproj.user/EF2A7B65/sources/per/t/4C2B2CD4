@@ -3,7 +3,7 @@
     "path": "E:/Engenharia/Projetos/Git/plot-factory/app.R",
     "project_path": "app.R",
     "type": "r_source",
-    "hash": "1327093999",
+    "hash": "489052393",
     "contents": "",
     "dirty": false,
     "created": 1600216627191.0,
@@ -11,15 +11,15 @@
     "relative_order": 1,
     "properties": {
         "tempName": "Untitled1",
-        "cursorPosition": "10,6",
-        "scrollLine": "0"
+        "cursorPosition": "23,24",
+        "scrollLine": "5"
     },
     "folds": "",
-    "lastKnownWriteTime": 1600218364,
+    "lastKnownWriteTime": 1600220770,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1600218364988,
+    "last_content_update": 1600220770624,
     "read_only": false,
     "read_only_alternatives": []
 }
