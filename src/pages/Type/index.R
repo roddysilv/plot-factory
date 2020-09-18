@@ -4,7 +4,7 @@ uiType <- tags$div(
   mainPanel(
     mainText = mainText(
       title="Tipo de gráfico",
-      text="Definida a base de daos, o próximo passo é escolher quais serão as variáveis a serem analisadas e também 
+      text="Definida a base de dados, o próximo passo é escolher quais serão as variáveis a serem analisadas e também 
             qual o tipo de gráfico a ser exibido. Lembre-se que um bom gráfico necessita de boas variáveis e também 
             da formatação correta."
     ),

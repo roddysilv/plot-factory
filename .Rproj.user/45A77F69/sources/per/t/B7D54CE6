@@ -1,0 +1,24 @@
+{
+    "id": "B7D54CE6",
+    "path": "~/UFJF/plot-factory/src/components/SwitchCheckBox/index.R",
+    "project_path": "src/components/SwitchCheckBox/index.R",
+    "type": "r_source",
+    "hash": "130982165",
+    "contents": "",
+    "dirty": false,
+    "created": 1600458621959.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "cursorPosition": "13,39",
+        "scrollLine": "6"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1600460585,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1600460585,
+    "read_only": false,
+    "read_only_alternatives": []
+}

@@ -1,7 +1,17 @@
 @import "../../components/SideBarPanel/styles";
+@import "../../components/ForwardBackwardButtons/styles";
 
 .result{
   display: flex;
   
-  @include sideBarPanel()
+  @include sideBarPanel();
+  @include mainPanel(){
+    @include mainText(){
+      margin-top: 3%;
+    }
+
+    @include forwardBackwardButtons();
+  }
 }
+
+    
