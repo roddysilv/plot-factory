@@ -14,9 +14,11 @@ importPanelServer <- function(id){
     moduleServer(
         id,
         function(input, output, session){
-           dataFrame <- importDataButtonServer(id = "button")
+           dataframe <- importDataButtonServer(id = "button")
+            
+           displayDataframeServer(id="display", dataframe = dataframe)
 
-           displayDataframeServer(id="display", dataFrame = dataFrame)
+           return(dataframe)
         }
     )
-} 
+}  
