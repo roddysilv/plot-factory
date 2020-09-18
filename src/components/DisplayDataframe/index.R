@@ -2,17 +2,17 @@ displayDataframe <- function(id){
     ns <- NS(id)
 
     tags$div(
-        class = "displayDataFrame",
-        dataTableOutput(ns("dataFrame"), height = "400px", width = "500px")
+        class = "displayDataframe",
+        dataTableOutput(ns("dataframe"), height = "400px", width = "500px")
     )
 }
 
-displayDataframeServer <- function(id, dataFrame){
+displayDataframeServer <- function(id, dataframe){
     moduleServer(
         id,
         function(input, output, session){
-            output$dataFrame <- renderDataTable({
-                datatable(dataFrame$data)
+            output$dataframe <- renderDataTable({
+                datatable(dataframe$data)
             })
         }
     )
