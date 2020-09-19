@@ -801,6 +801,28 @@ ul {
   width: 95%;
 }
 
+.result .mainPanel .resultPanel .blue-border {
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px 2.5%;
+  height: 425px;
+  width: 95%;
+  border: 5px solid #0c9fbf !important;
+  background-color: #fcfcfc;
+  overflow: scroll;
+}
+
+.result .mainPanel .resultPanel .blue-border {
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px 2.5%;
+  height: 425px;
+  width: 95%;
+  border: 5px solid #0c9fbf !important;
+  background-color: #fcfcfc;
+  overflow: scroll;
+}
+
 .result .mainPanel .forwardBackwardButtons {
   display: flex;
   justify-content: center;

@@ -33,13 +33,13 @@ switchCheckBoxServer <- function(id, ref){
                     "switch_shadow",
                     value = ref
                 )
-
-                onclick("switch_shadow", {
-                    switch_button$state <- input$switch_shadow
-                })
-
-                return(switch_button)
             })
+            
+            onclick("switch_shadow", {
+                    switch_button$state <- input$switch_shadow
+            })
+
+            return(switch_button)
         }
     )
 }

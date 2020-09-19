@@ -1,4 +1,5 @@
 @import "../../components/SideBarPanel/styles";
+@import "../../components/ResultPanel/styles";
 @import "../../components/ForwardBackwardButtons/styles";
 
 .result{
@@ -10,6 +11,7 @@
       margin-top: 3%;
     }
 
+    @include resultPanel();
     @include forwardBackwardButtons();
   }
 }

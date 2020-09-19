@@ -34,7 +34,7 @@ editionPanel <- function(id){
             tags$div(
                 tags$div(
                     class = "content",
-                    switchCheckBox(id=ns("subtiles"), label = "legendas")
+                    switchCheckBox(id=ns("subtitles"), label = "Legendas")
                 ),
                 tags$div(
                     class = "content",
@@ -168,7 +168,7 @@ editionPanelServer <- function(id){
         })
 
         plotConfig <- reactiveValues(
-            subtiles = switchCheckBoxServer(id = "subtitles", ref = session$userData$plotConfig$subtitles),
+            subtitles = switchCheckBoxServer(id = "subtitles", ref = session$userData$plotConfig$subtitles),
             fixedRange = switchCheckBoxServer(id = "fixedRange", ref = session$userData$plotConfig$fixedRange)
         )
 

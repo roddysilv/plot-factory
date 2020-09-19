@@ -7,14 +7,14 @@ typeOfPlot <- function(session, dataframe, plotOptions, plotConfig) {
     str <- array(NA)
 
     str[1] <- "plot_ly("
-    str[2] <- paste0("x = ~`", plotOptions$variableX, "`,")
-    str[3] <- paste0("y = ~`", plotOptions$variableY, "`,")
+    str[2] <- paste0("x = ~`", plotOptions$x, "`,")
+    str[3] <- paste0("y = ~`", plotOptions$y, "`,")
     str[4] <- "type = 'scatter',"
 
     str[5] <- paste0("mode = '", plotOptions$type, "',")
 
-    if (!is.null(plotOptions$variableGroupBy)) {
-      str[6] <- paste0("color = ~`", plotOptions$variableGroupBy, "`,")
+    if (!is.null(plotOptions$groupBy)) {
+      str[6] <- paste0("color = ~`", plotOptions$groupBy, "`,")
       str[7] <- paste0("colors = '", plotOptions$typeColor, "',")
       aux <- TRUE
     } else {
@@ -26,8 +26,8 @@ typeOfPlot <- function(session, dataframe, plotOptions, plotConfig) {
     str[8] <- "hoverinfo = 'text',"
 
     str[9] <- paste0(
-      "text = ~ paste('", plotOptions$variableX, " = ', `", plotOptions$variableX,
-      "`, ', ", plotOptions$variableY, " = ', `", plotOptions$variableY, "`)"
+      "text = ~ paste('", plotOptions$x, " = ', `", plotOptions$x,
+      "`, ', ", plotOptions$y, " = ', `", plotOptions$y, "`)"
     )
 
     str[10] <- ") %>%"
@@ -87,10 +87,10 @@ typeOfPlot <- function(session, dataframe, plotOptions, plotConfig) {
     str <- array(NA)
 
     str[1] <- "plot_ly("
-    str[2] <- paste0("y = ~`", plotOptions$variableX, "`,")
+    str[2] <- paste0("y = ~`", plotOptions$x, "`,")
 
-    if (!is.null(plotOptions$variableGroupBy)) {
-      str[3] <- paste0("color = ~`", plotOptions$variableGroupBy, "`,")
+    if (!is.null(plotOptions$groupBy)) {
+      str[3] <- paste0("color = ~`", plotOptions$groupBy, "`,")
       str[4] <- paste0("colors = '", plotOptions$typeColor, "',")
       aux <- TRUE
     } else {
@@ -146,8 +146,8 @@ typeOfPlot <- function(session, dataframe, plotOptions, plotConfig) {
 
     str[2] <- "add_pie("
 
-    str[3] <- paste0("labels = ~`", plotOptions$variableGroupBy, "`,")
-    str[4] <- paste0("values = ~`", plotOptions$variableX, "`,")
+    str[3] <- paste0("labels = ~`", plotOptions$groupBy, "`,")
+    str[4] <- paste0("values = ~`", plotOptions$x, "`,")
 
     str[5] <- "hole = 0.6,"
 
@@ -163,8 +163,8 @@ typeOfPlot <- function(session, dataframe, plotOptions, plotConfig) {
     str[12] <- "hoverinfo = 'text',"
 
     str[13] <- paste0(
-      "text = ~ paste('", plotOptions$variableGroupBy, " = ', `", plotOptions$variableGroupBy,
-      "`, ', ", plotOptions$variableX, " = ', `", plotOptions$variableX, "`)"
+      "text = ~ paste('", plotOptions$groupBy, " = ', `", plotOptions$groupBy,
+      "`, ', ", plotOptions$x, " = ', `", plotOptions$x, "`)"
     )
 
     str[14] <- ") %>%"

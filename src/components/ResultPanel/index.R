@@ -3,7 +3,8 @@ resultPanel <- function(id){
 
     tags$div(
         class = "resultPanel",
-        displayPlot(id = ns("plot"))
+        displayPlot(id = ns("plot")), 
+        codePlot(id = ns("code"))
     )
 }
 
@@ -11,7 +12,9 @@ resultPanelServer <- function(id){
     moduleServer(
         id,
         function(input, output, session){
-            displayPlotServer(id = "plot")
+            code <- displayPlotServer(id = "plot")
+
+            codePlotServer(id = "code", code)
         }
     )
 }

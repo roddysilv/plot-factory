@@ -43,9 +43,17 @@ server <- function(input,output,session){
     type = NULL,
     x = NULL,
     y = NULL,
-    groupBy = NULL
+    groupBy = NULL,
+    title = NULL,
+    subtitle = NULL,
+    hexColor = "#FFFFFF",
+    typeColor = NULL
   )
 
+  session$userData$plotConfig <- reactiveValues(
+    subtitles = TRUE,
+    fixedRange = FALSE
+  )
 }
 
 options(shiny.port = 3333)
